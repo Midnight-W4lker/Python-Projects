@@ -1,0 +1,44 @@
+#CREATING A CALCULATOR
+#1. Add
+#2. Subtract
+#3. Multiply
+#4. Divide
+
+
+
+print("Select an Opertion")
+print("1. Add")
+print("2. Subtract")
+print("3. Multiply")
+print("4. Divide")
+
+operation = input()
+#Code for ADDITION
+if operation == "1":
+    num1 = input("Enter 1st Number")
+    num2 = input("Enter 2nd Number")
+    print("          The SUM is " + str(int(num1) + int(num2)))
+    
+#Code for SUBTRACTION
+elif operation == "2":
+    num1 = input("Enter 1st Number")
+    num2 = input("Enter 2nd Number")
+    print("          The DIFFERENCE is " + str(int(num1) - int(num2)))
+    
+#Code for MULTIPLICATION
+elif operation == "3":
+    num1 = input("Enter 1st Number")
+    num2 = input("Enter 2nd Number")
+    print("          The PRODUCT is " + str(int(num1) * int(num2)))
+    
+#Code for DIVISION
+elif operation == "4":
+    num1 = input("Enter 1st Number")
+    num2 = input("Enter 2nd Number")
+    print("          The RESULT is " + str(int(num1) / int(num2)))
+else:
+    print("Invalid Operation")
+
+
+
+
