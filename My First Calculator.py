@@ -1,12 +1,11 @@
 import math
-#CREATING A CALCULATOR
+#CREATING A SIMPLE SCIENTIFIC CALCULATOR with Python:
 #1. Add
 #2. Subtract
 #3. Multiply
 #4. Divide
 #5. Square Root
 #6. Power
-
 
 print("Select an Opertion")
 print("1. ADDITION")
@@ -54,6 +53,3 @@ elif operation == "6":
             
 else:
     print("Invalid Operation")  
-
-
-
